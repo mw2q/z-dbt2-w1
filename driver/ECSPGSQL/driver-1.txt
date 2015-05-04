@@ -1,0 +1,59 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 1
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 1
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430496918
+driver will ramp up in  0 seconds
+will stop test at time 1430497518
+seed for 20733:fd1e3910 : 2824836054
+seed for 20733:fcf45910 : 2847163470
+seed for 20733:fcf25910 : 2847202688
+seed for 20733:fcf05910 : 2847233953
+seed for 20733:fcee5910 : 2846216358
+seed for 20733:fcec5910 : 2846205893
+seed for 20733:fcea5910 : 2845974535
+seed for 20733:fce85910 : 2846276035
+seed for 20733:fce65910 : 2846569143
+seed for 20733:fce45910 : 2846313495
+terminals started...
+driver is exiting normally
